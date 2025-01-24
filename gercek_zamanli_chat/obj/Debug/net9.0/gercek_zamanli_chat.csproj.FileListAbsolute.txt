@@ -32,4 +32,5 @@ C:\Users\o_khr\OneDrive\Masaüstü\gercek_zamanli_sohbet\gercek_zamanli_chat\obj
 C:\Users\o_khr\OneDrive\Masaüstü\gercek_zamanli_sohbet\gercek_zamanli_chat\obj\Debug\net9.0\gercek_zamanli_chat.genruntimeconfig.cache
 C:\Users\o_khr\OneDrive\Masaüstü\gercek_zamanli_sohbet\gercek_zamanli_chat\obj\Debug\net9.0\ref\gercek_zamanli_chat.dll
 C:\Users\o_khr\OneDrive\Masaüstü\gercek_zamanli_sohbet\gercek_zamanli_chat\obj\Debug\net9.0\compressed\hym6dad8r5-5ipweew5fc.gz
-C:\Users\o_khr\OneDrive\Masaüstü\gercek_zamanli_sohbet\gercek_zamanli_chat\obj\Debug\net9.0\compressed\j5bphnmu3c-a2tj90qglr.gz
+C:\Users\o_khr\OneDrive\Masaüstü\gercek_zamanli_sohbet\gercek_zamanli_chat\obj\Debug\net9.0\gercek_zamanli_chat.sourcelink.json
+C:\Users\o_khr\OneDrive\Masaüstü\gercek_zamanli_sohbet\gercek_zamanli_chat\obj\Debug\net9.0\compressed\j5bphnmu3c-4ortay3gh6.gz

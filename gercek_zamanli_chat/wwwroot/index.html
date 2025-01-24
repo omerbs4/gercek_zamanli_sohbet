@@ -15,7 +15,7 @@
 
     <script>
         const connection = new signalR.HubConnectionBuilder()
-            .withUrl("http://localhost:5142/chat_hub") // Backend URL
+            .withUrl("http://localhost:5142/chatHub") 
             .build();
 
         connection.on("ReceiveMessage", (user, message) => {
@@ -26,24 +26,24 @@
 
         connection.start().catch(err => console.error("Bağlantı hatası:", err.toString()));
 
-        // DOĞRU BUTON ID'SİYLE EVENT LİSTENER EKLENDİ
+        /
         document.getElementById("sendButton").addEventListener("click", () => {
             const user = document.getElementById("userInput").value;
             const message = document.getElementById("messageInput").value;
 
-            // Kullanıcı ve mesaj kontrolü
+            
             if (!user || !message) {
                 alert("Lütfen hem kullanıcı adını hem de mesajı doldurun.");
                 return;
             }
 
-            // Mesaj gönderme
+            
             connection.invoke("SendMessage", user, message)
                 .then(() => {
-                    // Alert mesajı
+                    
                     alert(`Mesaj gönderildi: ${user}: ${message}`);
                 })
-                .catch(err => console.error("Mesaj gönderme hatası:", err.toString()));
+                .catch(err => console.error("Mesaj gönderme hatasi:", err.toString()));
         });
     </script>
 </body>
