@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\chat.js",
+      "PackagePath": "staticwebassets\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.gercek_zamanli_chat.props",
+      "PackagePath": "build\\gercek_zamanli_chat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.gercek_zamanli_chat.props",
+      "PackagePath": "buildMultiTargeting\\gercek_zamanli_chat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.gercek_zamanli_chat.props",
+      "PackagePath": "buildTransitive\\gercek_zamanli_chat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.gercek_zamanli_chat.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.gercek_zamanli_chat.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

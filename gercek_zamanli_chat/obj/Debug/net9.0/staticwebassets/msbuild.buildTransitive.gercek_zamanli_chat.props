@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\gercek_zamanli_chat.props" />
+</Project>
