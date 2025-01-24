@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 14:55:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/gercek_zamanli_chat/index.4ortay3gh6.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4ortay3gh6"},{"Name":"integrity","Value":"sha256-VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA="},{"Name":"label","Value":"_content/gercek_zamanli_chat/index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1837"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 16:10:05 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/gercek_zamanli_chat/index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1837"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 16:10:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-54FG5jt0yBGmheN73tG2vfaE/Wf6OM\u002BySRRb/hTTK20="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1834"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u002254FG5jt0yBGmheN73tG2vfaE/Wf6OM\u002BySRRb/hTTK20=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 16:36:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/gercek_zamanli_chat/index.p4fitl7ldl.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p4fitl7ldl"},{"Name":"integrity","Value":"sha256-54FG5jt0yBGmheN73tG2vfaE/Wf6OM\u002BySRRb/hTTK20="},{"Name":"label","Value":"_content/gercek_zamanli_chat/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1834"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u002254FG5jt0yBGmheN73tG2vfaE/Wf6OM\u002BySRRb/hTTK20=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 16:36:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

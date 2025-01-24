@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4QYY1Xa2oKX4vnVFLNtahO0x6FzRzb3ir+I6IKAfD7o=",
+  "Hash": "sq4YV9RUrrxoBQ2C2+dWxkRVjfzQ9LoQNawjOtjm46I=",
   "Source": "gercek_zamanli_chat",
   "BasePath": "_content/gercek_zamanli_chat",
   "Mode": "Default",
@@ -38,12 +38,12 @@
       "OriginalItemSpec": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\chat.js"
     },
     {
-      "Identity": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-4ortay3gh6.gz",
+      "Identity": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-p4fitl7ldl.gz",
       "SourceId": "gercek_zamanli_chat",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/gercek_zamanli_chat",
-      "RelativePath": "index#[.{fingerprint=4ortay3gh6}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=p4fitl7ldl}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -52,8 +52,8 @@
       "RelatedAsset": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zzguu193jp",
-      "Integrity": "cXwVYLe9YYruCJ7zsXPa1IAgvJtxxjVWuGSZIuY56CE=",
+      "Fingerprint": "e2bv283nc6",
+      "Integrity": "xpv3dl331007AcoNBF1dlwpJXx06Z9HEwF/kgzEnG80=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4ortay3gh6",
-      "Integrity": "VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA=",
+      "Fingerprint": "p4fitl7ldl",
+      "Integrity": "54FG5jt0yBGmheN73tG2vfaE/Wf6OM+ySRRb/hTTK20=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -401,13 +401,13 @@
       ]
     },
     {
-      "Route": "index.4ortay3gh6.html",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-4ortay3gh6.gz",
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-p4fitl7ldl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001228501229"
+          "Quality": "0.001237623762"
         }
       ],
       "ResponseHeaders": [
@@ -417,19 +417,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "813"
+          "Value": "807"
         },
         {
           "Name": "ETag",
-          "Value": "\"cXwVYLe9YYruCJ7zsXPa1IAgvJtxxjVWuGSZIuY56CE=\""
+          "Value": "\"xpv3dl331007AcoNBF1dlwpJXx06Z9HEwF/kgzEnG80=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 16:10:05 GMT"
+          "Value": "Fri, 24 Jan 2025 16:36:07 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -445,26 +445,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA=\""
+          "Value": "W/\"54FG5jt0yBGmheN73tG2vfaE/Wf6OM+ySRRb/hTTK20=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "4ortay3gh6"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA="
+          "Value": "sha256-54FG5jt0yBGmheN73tG2vfaE/Wf6OM+ySRRb/hTTK20="
         }
       ]
     },
     {
-      "Route": "index.4ortay3gh6.html",
+      "Route": "index.html",
       "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -474,7 +466,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1837"
+          "Value": "1834"
         },
         {
           "Name": "Content-Type",
@@ -482,11 +474,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA=\""
+          "Value": "\"54FG5jt0yBGmheN73tG2vfaE/Wf6OM+ySRRb/hTTK20=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 16:10:05 GMT"
+          "Value": "Fri, 24 Jan 2025 16:36:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-54FG5jt0yBGmheN73tG2vfaE/Wf6OM+ySRRb/hTTK20="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-p4fitl7ldl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xpv3dl331007AcoNBF1dlwpJXx06Z9HEwF/kgzEnG80=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 16:36:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xpv3dl331007AcoNBF1dlwpJXx06Z9HEwF/kgzEnG80="
+        }
+      ]
+    },
+    {
+      "Route": "index.p4fitl7ldl.html",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-p4fitl7ldl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001237623762"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "807"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xpv3dl331007AcoNBF1dlwpJXx06Z9HEwF/kgzEnG80=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 16:36:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"54FG5jt0yBGmheN73tG2vfaE/Wf6OM+ySRRb/hTTK20=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p4fitl7ldl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-54FG5jt0yBGmheN73tG2vfaE/Wf6OM+ySRRb/hTTK20="
+        }
+      ]
+    },
+    {
+      "Route": "index.p4fitl7ldl.html",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1834"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"54FG5jt0yBGmheN73tG2vfaE/Wf6OM+ySRRb/hTTK20=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 16:36:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -496,7 +633,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4ortay3gh6"
+          "Value": "p4fitl7ldl"
         },
         {
           "Name": "label",
@@ -504,13 +641,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA="
+          "Value": "sha256-54FG5jt0yBGmheN73tG2vfaE/Wf6OM+ySRRb/hTTK20="
         }
       ]
     },
     {
-      "Route": "index.4ortay3gh6.html.gz",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-4ortay3gh6.gz",
+      "Route": "index.p4fitl7ldl.html.gz",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-p4fitl7ldl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -519,7 +656,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "813"
+          "Value": "807"
         },
         {
           "Name": "Content-Type",
@@ -527,11 +664,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cXwVYLe9YYruCJ7zsXPa1IAgvJtxxjVWuGSZIuY56CE=\""
+          "Value": "\"xpv3dl331007AcoNBF1dlwpJXx06Z9HEwF/kgzEnG80=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 16:10:05 GMT"
+          "Value": "Fri, 24 Jan 2025 16:36:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -549,7 +686,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4ortay3gh6"
+          "Value": "p4fitl7ldl"
         },
         {
           "Name": "label",
@@ -557,144 +694,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cXwVYLe9YYruCJ7zsXPa1IAgvJtxxjVWuGSZIuY56CE="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-4ortay3gh6.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001228501229"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "813"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cXwVYLe9YYruCJ7zsXPa1IAgvJtxxjVWuGSZIuY56CE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 16:10:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1837"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 16:10:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VHMZdbg8R9lA1OdBwjEM4Fbh531RUAl354TGbYHn8GA="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-4ortay3gh6.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "813"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cXwVYLe9YYruCJ7zsXPa1IAgvJtxxjVWuGSZIuY56CE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 16:10:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-cXwVYLe9YYruCJ7zsXPa1IAgvJtxxjVWuGSZIuY56CE="
+          "Value": "sha256-xpv3dl331007AcoNBF1dlwpJXx06Z9HEwF/kgzEnG80="
         }
       ]
     }

@@ -1,3 +1,4 @@
+//[Authorize(Roles = "Registered")]
 using Microsoft.AspNetCore.SignalR;
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,6 @@ builder.Services.AddCors(options =>   //Connection id requried hatasi icin
 var app = builder.Build();
 app.UseCors();
 // 
-app.MapHub<ChatHub>("chatHub");
+app.MapHub<ChatHub>("chat");
 
 app.Run();

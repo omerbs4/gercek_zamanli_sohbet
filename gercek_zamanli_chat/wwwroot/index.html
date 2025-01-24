@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerçek Zamanlı Sohbet</title>
+    <title>Gerçek Zamanli Sohbet</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.0/signalr.min.js"></script>
 </head>
 <body>
@@ -15,7 +15,12 @@
 
     <script>
         const connection = new signalR.HubConnectionBuilder()
-            .withUrl("http://localhost:5142/chatHub") 
+            .withUrl("/chat",{
+                accesTokenFactory: () =>{
+                    //tokwn
+                    return localStorage.getItem("token");
+                }
+            })
             .build();
 
         connection.on("ReceiveMessage", (user, message) => {
@@ -26,7 +31,7 @@
 
         connection.start().catch(err => console.error("Bağlantı hatası:", err.toString()));
 
-        /
+        
         document.getElementById("sendButton").addEventListener("click", () => {
             const user = document.getElementById("userInput").value;
             const message = document.getElementById("messageInput").value;
