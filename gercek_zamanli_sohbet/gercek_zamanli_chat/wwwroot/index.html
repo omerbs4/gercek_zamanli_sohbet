@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerçek Zamanlı Sohbet</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.0/signalr.min.js"></script>
+</head>
+<body>
+    <h1>Online Chat App</h1>
+    <input id="userInput" type="text" placeholder="Your name">
+    <input id="messageInput" type="text" placeholder="Your message">
+    <button id="sendButton">Send</button>
+    <ul id="messageList"></ul>
+
+    <script>
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("http://localhost:5142/chat_hub") // Backend URL
+            .build();
+
+        connection.on("ReceiveMessage", (user, message) => {
+            const li = document.createElement("li");
+            li.textContent = `${user}: ${message}`;
+            document.getElementById("messageList").appendChild(li);
+        });
+
+        connection.start().catch(err => console.error("Bağlantı hatası:", err.toString()));
+
+        // DOĞRU BUTON ID'SİYLE EVENT LİSTENER EKLENDİ
+        document.getElementById("sendButton").addEventListener("click", () => {
+            const user = document.getElementById("userInput").value;
+            const message = document.getElementById("messageInput").value;
+
+            // Kullanıcı ve mesaj kontrolü
+            if (!user || !message) {
+                alert("Lütfen hem kullanıcı adını hem de mesajı doldurun.");
+                return;
+            }
+
+            // Mesaj gönderme
+            connection.invoke("SendMessage", user, message)
+                .then(() => {
+                    // Alert mesajı
+                    alert(`Mesaj gönderildi: ${user}: ${message}`);
+                })
+                .catch(err => console.error("Mesaj gönderme hatası:", err.toString()));
+        });
+    </script>
+</body>
+</html>
