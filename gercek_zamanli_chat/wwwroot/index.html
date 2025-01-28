@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerçek Zamanlı Sohbet</title>
+    <title>Gerçek Zamanli Sohbet</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.0/signalr.min.js"></script>
 </head>
 <body>
@@ -15,7 +15,7 @@
 
     <script>
         const connection = new signalR.HubConnectionBuilder()
-            .withUrl("http://localhost:5142/chat_hub") // Backend URL
+            .withUrl("http://localhost:5142/chat_hub") // backend URL
             .build();
 
         connection.on("ReceiveMessage", (user, message) => {
@@ -26,10 +26,10 @@
 
         connection.start()
             .then(() => {
-                console.log("Bağlantı kuruldu.");
-                document.getElementById("sendButton").disabled = false; // Butonu aktif et
+                console.log("baglanti kuruldu.");
+                document.getElementById("sendButton").disabled = false; 
             })
-            .catch(err => console.error("Bağlantı hatası:", err.toString()));
+            .catch(err => console.error("baglanti hatasi:", err.toString()));
 
         document.getElementById("sendButton").addEventListener("click", () => {
             const user = document.getElementById("userInput").value;
@@ -37,15 +37,15 @@
 
             
             if (!user || !message) {
-                alert("Lütfen hem kullanıcı adını hem de mesajı doldurun.");
+                alert("kullanici adi ve mesaji doldur.");
                 return;
             }
 
             connection.invoke("SendMessage", user, message)
                 .then(() => {
-                    console.log(`Mesaj gönderildi: ${user}: ${message}`);
+                    console.log(`mesaj gonderildi: ${user}: ${message}`);
                 })
-                .catch(err => console.error("Mesaj gönderme hatası:", err.toString()));
+                .catch(err => console.error("mesaj  hatasi:", err.toString()));
         });
     </script>
 </body>
