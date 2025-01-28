@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "H7jsHS6AUlYQslXY709d9zyEeQbAvyMmpO4Icx81ozg=",
+  "Hash": "vLHtNx5jpXjCenHzJSyAoT7pTnJzAxzwXn56g6Xom90=",
   "Source": "gercek_zamanli_chat",
   "BasePath": "_content/gercek_zamanli_chat",
   "Mode": "Default",
@@ -38,12 +38,12 @@
       "OriginalItemSpec": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\chat.js"
     },
     {
-      "Identity": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-ddokw5vpbv.gz",
+      "Identity": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-7jugif34wc.gz",
       "SourceId": "gercek_zamanli_chat",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/gercek_zamanli_chat",
-      "RelativePath": "index#[.{fingerprint=ddokw5vpbv}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=7jugif34wc}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -52,8 +52,8 @@
       "RelatedAsset": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vkogorjrew",
-      "Integrity": "kcuAKei4nKHKgf5hffQbUOcw7oOcCpL/SmuxB2b6mHY=",
+      "Fingerprint": "91nnvytwbz",
+      "Integrity": "XesoHd8kZ3gS/dinx//WPk22AVQRqWS7GcAx10i1rtk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ddokw5vpbv",
-      "Integrity": "YTz2meh5vSZlD2zWmGgXlV7XtPNdm/EiDX1jMsZ5XHQ=",
+      "Fingerprint": "7jugif34wc",
+      "Integrity": "kxxPHznp3DpvZoMMsOVhv1pd6YDFcqM+/lHni8gNzFo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -443,13 +443,13 @@
       ]
     },
     {
-      "Route": "index.ddokw5vpbv.html",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-ddokw5vpbv.gz",
+      "Route": "index.7jugif34wc.html",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-7jugif34wc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001148105626"
+          "Quality": "0.000737463127"
         }
       ],
       "ResponseHeaders": [
@@ -459,15 +459,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "870"
+          "Value": "1355"
         },
         {
           "Name": "ETag",
-          "Value": "\"kcuAKei4nKHKgf5hffQbUOcw7oOcCpL/SmuxB2b6mHY=\""
+          "Value": "\"XesoHd8kZ3gS/dinx//WPk22AVQRqWS7GcAx10i1rtk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 08:30:47 GMT"
+          "Value": "Tue, 28 Jan 2025 14:49:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -487,13 +487,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YTz2meh5vSZlD2zWmGgXlV7XtPNdm/EiDX1jMsZ5XHQ=\""
+          "Value": "W/\"kxxPHznp3DpvZoMMsOVhv1pd6YDFcqM+/lHni8gNzFo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ddokw5vpbv"
+          "Value": "7jugif34wc"
         },
         {
           "Name": "label",
@@ -501,12 +501,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YTz2meh5vSZlD2zWmGgXlV7XtPNdm/EiDX1jMsZ5XHQ="
+          "Value": "sha256-kxxPHznp3DpvZoMMsOVhv1pd6YDFcqM+/lHni8gNzFo="
         }
       ]
     },
     {
-      "Route": "index.ddokw5vpbv.html",
+      "Route": "index.7jugif34wc.html",
       "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -516,7 +516,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2023"
+          "Value": "3907"
         },
         {
           "Name": "Content-Type",
@@ -524,11 +524,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YTz2meh5vSZlD2zWmGgXlV7XtPNdm/EiDX1jMsZ5XHQ=\""
+          "Value": "\"kxxPHznp3DpvZoMMsOVhv1pd6YDFcqM+/lHni8gNzFo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 08:30:47 GMT"
+          "Value": "Tue, 28 Jan 2025 14:49:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -538,7 +538,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ddokw5vpbv"
+          "Value": "7jugif34wc"
         },
         {
           "Name": "label",
@@ -546,13 +546,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YTz2meh5vSZlD2zWmGgXlV7XtPNdm/EiDX1jMsZ5XHQ="
+          "Value": "sha256-kxxPHznp3DpvZoMMsOVhv1pd6YDFcqM+/lHni8gNzFo="
         }
       ]
     },
     {
-      "Route": "index.ddokw5vpbv.html.gz",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-ddokw5vpbv.gz",
+      "Route": "index.7jugif34wc.html.gz",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-7jugif34wc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -561,7 +561,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "870"
+          "Value": "1355"
         },
         {
           "Name": "Content-Type",
@@ -569,11 +569,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kcuAKei4nKHKgf5hffQbUOcw7oOcCpL/SmuxB2b6mHY=\""
+          "Value": "\"XesoHd8kZ3gS/dinx//WPk22AVQRqWS7GcAx10i1rtk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 08:30:47 GMT"
+          "Value": "Tue, 28 Jan 2025 14:49:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -591,7 +591,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ddokw5vpbv"
+          "Value": "7jugif34wc"
         },
         {
           "Name": "label",
@@ -599,18 +599,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kcuAKei4nKHKgf5hffQbUOcw7oOcCpL/SmuxB2b6mHY="
+          "Value": "sha256-XesoHd8kZ3gS/dinx//WPk22AVQRqWS7GcAx10i1rtk="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-ddokw5vpbv.gz",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-7jugif34wc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001148105626"
+          "Quality": "0.000737463127"
         }
       ],
       "ResponseHeaders": [
@@ -620,15 +620,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "870"
+          "Value": "1355"
         },
         {
           "Name": "ETag",
-          "Value": "\"kcuAKei4nKHKgf5hffQbUOcw7oOcCpL/SmuxB2b6mHY=\""
+          "Value": "\"XesoHd8kZ3gS/dinx//WPk22AVQRqWS7GcAx10i1rtk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 08:30:47 GMT"
+          "Value": "Tue, 28 Jan 2025 14:49:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -648,13 +648,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YTz2meh5vSZlD2zWmGgXlV7XtPNdm/EiDX1jMsZ5XHQ=\""
+          "Value": "W/\"kxxPHznp3DpvZoMMsOVhv1pd6YDFcqM+/lHni8gNzFo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YTz2meh5vSZlD2zWmGgXlV7XtPNdm/EiDX1jMsZ5XHQ="
+          "Value": "sha256-kxxPHznp3DpvZoMMsOVhv1pd6YDFcqM+/lHni8gNzFo="
         }
       ]
     },
@@ -669,7 +669,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2023"
+          "Value": "3907"
         },
         {
           "Name": "Content-Type",
@@ -677,11 +677,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YTz2meh5vSZlD2zWmGgXlV7XtPNdm/EiDX1jMsZ5XHQ=\""
+          "Value": "\"kxxPHznp3DpvZoMMsOVhv1pd6YDFcqM+/lHni8gNzFo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 08:30:47 GMT"
+          "Value": "Tue, 28 Jan 2025 14:49:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -691,13 +691,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YTz2meh5vSZlD2zWmGgXlV7XtPNdm/EiDX1jMsZ5XHQ="
+          "Value": "sha256-kxxPHznp3DpvZoMMsOVhv1pd6YDFcqM+/lHni8gNzFo="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-ddokw5vpbv.gz",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-7jugif34wc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -706,7 +706,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "870"
+          "Value": "1355"
         },
         {
           "Name": "Content-Type",
@@ -714,11 +714,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kcuAKei4nKHKgf5hffQbUOcw7oOcCpL/SmuxB2b6mHY=\""
+          "Value": "\"XesoHd8kZ3gS/dinx//WPk22AVQRqWS7GcAx10i1rtk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 08:30:47 GMT"
+          "Value": "Tue, 28 Jan 2025 14:49:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -736,7 +736,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kcuAKei4nKHKgf5hffQbUOcw7oOcCpL/SmuxB2b6mHY="
+          "Value": "sha256-XesoHd8kZ3gS/dinx//WPk22AVQRqWS7GcAx10i1rtk="
         }
       ]
     },
