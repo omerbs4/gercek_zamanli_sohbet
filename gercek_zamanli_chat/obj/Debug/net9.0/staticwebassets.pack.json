@@ -1,12 +1,16 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\chat.js",
+      "Id": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\chat.js",
       "PackagePath": "staticwebassets\\chat.js"
     },
     {
-      "Id": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
+      "Id": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.gercek_zamanli_chat.props",

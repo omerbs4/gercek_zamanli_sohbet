@@ -11,12 +11,12 @@ builder.Services.AddCors(options =>
         policy.AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials()
-              .WithOrigins("http://127.0.0.1:3000/", "http://localhost:5500"); // Live Server portunu ekle
+              .WithOrigins("http://127.0.0.1:3000", "http://localhost:5142"); // Live Server portunu ekle
     });
 });
 var app = builder.Build();
 app.UseCors();
-// SignalR hub'ını doğru endpoint ile tanımlayın
+
 app.MapHub<ChatHub>("/chat_hub");
 
 app.Run();

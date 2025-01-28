@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RDWq7wTf9Lo=",
+  "dgSpecHash": "oo2sgnUTFqw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\gercek_zamanli_chat.csproj",
+  "projectFilePath": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\gercek_zamanli_chat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\o_khr\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\o_khr\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.3.0\\microsoft.aspnetcore.authorization.2.3.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\gercek_zamanli_chat.csproj": {}
+    "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\gercek_zamanli_chat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\gercek_zamanli_chat.csproj": {
+    "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\gercek_zamanli_chat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\gercek_zamanli_chat.csproj",
+        "projectUniqueName": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\gercek_zamanli_chat.csproj",
         "projectName": "gercek_zamanli_chat",
-        "projectPath": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\gercek_zamanli_chat.csproj",
+        "projectPath": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\gercek_zamanli_chat.csproj",
         "packagesPath": "C:\\Users\\o_khr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\o_khr\\OneDrive\\Masaüstü\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\",
+        "outputPath": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\o_khr\\AppData\\Roaming\\NuGet\\NuGet.Config",

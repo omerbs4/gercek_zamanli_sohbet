@@ -10,7 +10,7 @@
     <h1>Online Chat App</h1>
     <input id="userInput" type="text" placeholder="Your name">
     <input id="messageInput" type="text" placeholder="Your message">
-    <button id="sendButton">Send</button>
+    <button id="sendButton" disabled>Send</button>
     <ul id="messageList"></ul>
 
     <script>
@@ -24,24 +24,26 @@
             document.getElementById("messageList").appendChild(li);
         });
 
-        connection.start().catch(err => console.error("Bağlantı hatası:", err.toString()));
+        connection.start()
+            .then(() => {
+                console.log("Bağlantı kuruldu.");
+                document.getElementById("sendButton").disabled = false; // Butonu aktif et
+            })
+            .catch(err => console.error("Bağlantı hatası:", err.toString()));
 
-        // DOĞRU BUTON ID'SİYLE EVENT LİSTENER EKLENDİ
         document.getElementById("sendButton").addEventListener("click", () => {
             const user = document.getElementById("userInput").value;
             const message = document.getElementById("messageInput").value;
 
-            // Kullanıcı ve mesaj kontrolü
+            
             if (!user || !message) {
                 alert("Lütfen hem kullanıcı adını hem de mesajı doldurun.");
                 return;
             }
 
-            // Mesaj gönderme
             connection.invoke("SendMessage", user, message)
                 .then(() => {
-                    // Alert mesajı
-                    alert(`Mesaj gönderildi: ${user}: ${message}`);
+                    console.log(`Mesaj gönderildi: ${user}: ${message}`);
                 })
                 .catch(err => console.error("Mesaj gönderme hatası:", err.toString()));
         });
