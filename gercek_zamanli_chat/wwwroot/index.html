@@ -49,7 +49,7 @@
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
-        background-color: #103f68;
+        background-color: #073156;
         color: #ffffff;
         cursor: pointer;
         font-size: 1rem;
@@ -59,7 +59,7 @@
     }
     button:disabled
     {
-        background-color: #55408d;
+        background-color: #000000;
         cursor: not-allowed;
 
     }
@@ -77,12 +77,12 @@
         margin: 20px 0;
         width: 80%;
         max-width: 500px;
-        background-color: #3e3763;
+        background-color: #000000;
         border: 1px solid #000000;
         border-radius: 10px;
         max-height: 300px;
         overflow-y: auto;
-        box-shadow: 2px 2px 10px #000000;
+        box-shadow: 2px 2px 10px #000;
 
     }
     #messageList li:last-child
@@ -93,12 +93,12 @@
 
         #messageList li:nth-child(odd)
         {
-            background-color: #ffffff;
+            background-color: #992727;
 
         }
         #messageList li:nth-child(even)
         {
-            background-color: #b03636;
+            background-color: #ffffff;
 
             
         }
@@ -117,6 +117,7 @@
     <h1>Online Chat App</h1>
     <input id="userInput" type="text" placeholder="Your name">
     <input id="messageInput" type="text" placeholder="Your message">
+    <input id="imageInput"type="file" accept="image/*">
     <button id="sendButton" disabled>Send</button>
     <ul id="messageList"></ul>
 
@@ -125,9 +126,21 @@
             .withUrl("http://localhost:5142/chat_hub") // backend URL
             .build();
 
-        connection.on("ReceiveMessage", (user, message) => {
+        connection.on("ReceiveMessage", (user, message,imageBase64) => {
             const li = document.createElement("li");
-            li.textContent = `${user}: ${message}`;
+            const content  =document.createElement("div");
+
+            li.innerHTML = `<strong>${user}:</strong> ${message}`;
+
+            if(imageBase64)
+            {   
+                const img = document.createElement("img");
+                img.src="data:image/png;base64,"+imageBase64;
+                content.appendChild(img);
+
+                    
+            }
+            li.appendChild(content);
             document.getElementById("messageList").appendChild(li);
         });
 
@@ -141,19 +154,39 @@
         document.getElementById("sendButton").addEventListener("click", () => {
             const user = document.getElementById("userInput").value;
             const message = document.getElementById("messageInput").value;
+            const imageInput = document.getElementById("imageInput");
+            let imageBase64 = null;
 
+            if(imageInput.files.length >0)
+            {
+                const reader = new FileReader();
+                reader.onloadend = function(){
+                    imageBase64 = reader.result.split(',')[1];
+                    sendMessage(user,message,imageBase64);
+                };
+                reader.readAsDataURL(imageInput.files[0]);
+            }else{
+                sendMessage(user,message,imageBase64);
+            }
             
-            if (!user || !message) {
+            
+        });
+
+        function sendMessage(user,message,imageBase64)
+        {
+            if (!user || (!message && !imageBase64)) {
                 alert("kullanici adi ve mesaji doldur.");
                 return;
             }
 
-            connection.invoke("SendMessage", user, message)
+            connection.invoke("SendMessage", user, message,imageBase64)
                 .then(() => {
                     console.log(`mesaj gonderildi: ${user}: ${message}`);
+                    document.getElementById("messageInput").value='';
+                    document.getElementById("imageInput").value='';
                 })
                 .catch(err => console.error("mesaj  hatasi:", err.toString()));
-        });
+        }
     </script>
 </body>
 </html>

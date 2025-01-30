@@ -70,4 +70,4 @@ C:\Users\o_khr\OneDrive\Documents\GitHub\gercek_zamanli_sohbet\gercek_zamanli_so
 C:\Users\o_khr\OneDrive\Documents\GitHub\gercek_zamanli_sohbet\gercek_zamanli_sohbet\gercek_zamanli_chat\obj\Debug\net9.0\ref\gercek_zamanli_chat.dll
 C:\Users\o_khr\OneDrive\Documents\GitHub\gercek_zamanli_sohbet\gercek_zamanli_sohbet\gercek_zamanli_chat\bin\Debug\net9.0\libman.json
 C:\Users\o_khr\OneDrive\Documents\GitHub\gercek_zamanli_sohbet\gercek_zamanli_sohbet\gercek_zamanli_chat\obj\Debug\net9.0\compressed\usejy8huih-cqu3aupeo3.gz
-C:\Users\o_khr\OneDrive\Documents\GitHub\gercek_zamanli_sohbet\gercek_zamanli_sohbet\gercek_zamanli_chat\obj\Debug\net9.0\compressed\j5bphnmu3c-4qw4l7ydw6.gz
+C:\Users\o_khr\OneDrive\Documents\GitHub\gercek_zamanli_sohbet\gercek_zamanli_sohbet\gercek_zamanli_chat\obj\Debug\net9.0\compressed\j5bphnmu3c-lezcitfq17.gz

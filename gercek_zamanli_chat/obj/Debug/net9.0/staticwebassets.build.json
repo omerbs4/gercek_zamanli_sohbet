@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+dDNwdqjKeSy8eHhSsP1SfPGqbV8hrXkOERqAc5YL4E=",
+  "Hash": "iLLTFyFMMsuS7mRkoukKyWbKaos/PO+SVM5lf9eMsG0=",
   "Source": "gercek_zamanli_chat",
   "BasePath": "_content/gercek_zamanli_chat",
   "Mode": "Default",
@@ -38,12 +38,12 @@
       "OriginalItemSpec": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\chat.js"
     },
     {
-      "Identity": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-4qw4l7ydw6.gz",
+      "Identity": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-lezcitfq17.gz",
       "SourceId": "gercek_zamanli_chat",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/gercek_zamanli_chat",
-      "RelativePath": "index#[.{fingerprint=4qw4l7ydw6}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=lezcitfq17}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -52,8 +52,8 @@
       "RelatedAsset": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "bx2j7b3870",
-      "Integrity": "ccczgtfEhjGCkxRqGiL1h7D4alxb6xCblfQeniCI8Us=",
+      "Fingerprint": "yh590yfeom",
+      "Integrity": "6kO2BSmQ2TqTo+E1ISbaVXX2D9w8CAEQ7WxsuH8/kfs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4qw4l7ydw6",
-      "Integrity": "rI/Jnj5tA+5Y6FCytO5+tr5VzSjeEVRR5NlT/Et5Q2M=",
+      "Fingerprint": "lezcitfq17",
+      "Integrity": "PZTsCRVjy1MHV0jCBNsxE/P/J0AZYpMh3LPYmuK1Hms=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -443,13 +443,13 @@
       ]
     },
     {
-      "Route": "index.4qw4l7ydw6.html",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-4qw4l7ydw6.gz",
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-lezcitfq17.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000739098300"
+          "Quality": "0.000606060606"
         }
       ],
       "ResponseHeaders": [
@@ -459,19 +459,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1352"
+          "Value": "1649"
         },
         {
           "Name": "ETag",
-          "Value": "\"ccczgtfEhjGCkxRqGiL1h7D4alxb6xCblfQeniCI8Us=\""
+          "Value": "\"6kO2BSmQ2TqTo+E1ISbaVXX2D9w8CAEQ7WxsuH8/kfs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 07:16:42 GMT"
+          "Value": "Thu, 30 Jan 2025 08:55:57 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -487,26 +487,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rI/Jnj5tA+5Y6FCytO5+tr5VzSjeEVRR5NlT/Et5Q2M=\""
+          "Value": "W/\"PZTsCRVjy1MHV0jCBNsxE/P/J0AZYpMh3LPYmuK1Hms=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "4qw4l7ydw6"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-rI/Jnj5tA+5Y6FCytO5+tr5VzSjeEVRR5NlT/Et5Q2M="
+          "Value": "sha256-PZTsCRVjy1MHV0jCBNsxE/P/J0AZYpMh3LPYmuK1Hms="
         }
       ]
     },
     {
-      "Route": "index.4qw4l7ydw6.html",
+      "Route": "index.html",
       "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -516,7 +508,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3922"
+          "Value": "5181"
         },
         {
           "Name": "Content-Type",
@@ -524,11 +516,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rI/Jnj5tA+5Y6FCytO5+tr5VzSjeEVRR5NlT/Et5Q2M=\""
+          "Value": "\"PZTsCRVjy1MHV0jCBNsxE/P/J0AZYpMh3LPYmuK1Hms=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 07:16:42 GMT"
+          "Value": "Thu, 30 Jan 2025 08:55:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PZTsCRVjy1MHV0jCBNsxE/P/J0AZYpMh3LPYmuK1Hms="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-lezcitfq17.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6kO2BSmQ2TqTo+E1ISbaVXX2D9w8CAEQ7WxsuH8/kfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:55:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6kO2BSmQ2TqTo+E1ISbaVXX2D9w8CAEQ7WxsuH8/kfs="
+        }
+      ]
+    },
+    {
+      "Route": "index.lezcitfq17.html",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-lezcitfq17.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000606060606"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1649"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6kO2BSmQ2TqTo+E1ISbaVXX2D9w8CAEQ7WxsuH8/kfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:55:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PZTsCRVjy1MHV0jCBNsxE/P/J0AZYpMh3LPYmuK1Hms=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lezcitfq17"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PZTsCRVjy1MHV0jCBNsxE/P/J0AZYpMh3LPYmuK1Hms="
+        }
+      ]
+    },
+    {
+      "Route": "index.lezcitfq17.html",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PZTsCRVjy1MHV0jCBNsxE/P/J0AZYpMh3LPYmuK1Hms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:55:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -538,7 +675,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4qw4l7ydw6"
+          "Value": "lezcitfq17"
         },
         {
           "Name": "label",
@@ -546,13 +683,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rI/Jnj5tA+5Y6FCytO5+tr5VzSjeEVRR5NlT/Et5Q2M="
+          "Value": "sha256-PZTsCRVjy1MHV0jCBNsxE/P/J0AZYpMh3LPYmuK1Hms="
         }
       ]
     },
     {
-      "Route": "index.4qw4l7ydw6.html.gz",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-4qw4l7ydw6.gz",
+      "Route": "index.lezcitfq17.html.gz",
+      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-lezcitfq17.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -561,7 +698,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1352"
+          "Value": "1649"
         },
         {
           "Name": "Content-Type",
@@ -569,11 +706,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ccczgtfEhjGCkxRqGiL1h7D4alxb6xCblfQeniCI8Us=\""
+          "Value": "\"6kO2BSmQ2TqTo+E1ISbaVXX2D9w8CAEQ7WxsuH8/kfs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 07:16:42 GMT"
+          "Value": "Thu, 30 Jan 2025 08:55:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -591,7 +728,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4qw4l7ydw6"
+          "Value": "lezcitfq17"
         },
         {
           "Name": "label",
@@ -599,144 +736,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ccczgtfEhjGCkxRqGiL1h7D4alxb6xCblfQeniCI8Us="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-4qw4l7ydw6.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000739098300"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1352"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ccczgtfEhjGCkxRqGiL1h7D4alxb6xCblfQeniCI8Us=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 07:16:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"rI/Jnj5tA+5Y6FCytO5+tr5VzSjeEVRR5NlT/Et5Q2M=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rI/Jnj5tA+5Y6FCytO5+tr5VzSjeEVRR5NlT/Et5Q2M="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3922"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rI/Jnj5tA+5Y6FCytO5+tr5VzSjeEVRR5NlT/Et5Q2M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 07:16:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rI/Jnj5tA+5Y6FCytO5+tr5VzSjeEVRR5NlT/Et5Q2M="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\o_khr\\OneDrive\\Documents\\GitHub\\gercek_zamanli_sohbet\\gercek_zamanli_sohbet\\gercek_zamanli_chat\\obj\\Debug\\net9.0\\compressed\\j5bphnmu3c-4qw4l7ydw6.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1352"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ccczgtfEhjGCkxRqGiL1h7D4alxb6xCblfQeniCI8Us=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 07:16:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ccczgtfEhjGCkxRqGiL1h7D4alxb6xCblfQeniCI8Us="
+          "Value": "sha256-6kO2BSmQ2TqTo+E1ISbaVXX2D9w8CAEQ7WxsuH8/kfs="
         }
       ]
     },
